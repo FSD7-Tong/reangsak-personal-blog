@@ -9,13 +9,13 @@ export function NavBar() {
       <div className="hidden md:flex space-x-4">
         <a
           href="/login"
-          className="px-9 py-2  rounded-full border border-[#75716B]"
+          className="px-9 py-2 bg-[#FFFFFF] rounded-full border border-[#75716B] text-base font-medium"
         >
           Log in
         </a>
         <a
           href="/signup"
-          className="px-8 py-2 bg-gray-900 text-white rounded-full hover:bg-gray-700 transition-colors"
+          className="px-8 py-2 bg-[#26231E] text-white rounded-full hover:bg-gray-700 transition-colors text-base font-medium"
         >
           Sign up
         </a>
